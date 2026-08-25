@@ -6,10 +6,10 @@ describe("Cancion", () => { //pruebas que tienen que ver exclusivamente con las 
 
   test("debe crear una canción con su título y duración correctamente", () => { //es el escenario espcif. que vamos a probar
     // 1. Preparar: Creamos una canción de prueba 
-    const miCancion = new Cancion("Kickstart My Heart", 243);
+    const miCancion = new Cancion("NO LES DA CF", 243);
 
     // 2. Afirmar: Comprobamos que el constructor guardó bien los datos
-    expect(miCancion.titulo).toBe("Kickstart My Heart");
+    expect(miCancion.titulo).toBe("NO LES DA CF");
     expect(miCancion.duracion).toBe(243);
   });
 
