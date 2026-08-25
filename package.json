@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/macho9991/Mi-musica#readme",
   "devDependencies": {
-    "typescript": "^7.0.2"
+    "typescript": "^7.0.2",
+    "vitest": "^4.1.11"
   }
 }
