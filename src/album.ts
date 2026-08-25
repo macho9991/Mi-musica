@@ -8,4 +8,9 @@ export class Album {
         public titulo: string,
         public anio: number
     ) {}
+
+    // este metodo suma canciones al album
+    agregarCancion(cancion: Cancion): void {
+        this.canciones.push(cancion);
+    }
 }
